@@ -1,7 +1,7 @@
-title: Launch A New Project
-tagline: Toolkit for launching your new project. Start by forking on github
-description: Make a launch site for your new webpage. Add an email list, HTTPS, free webhosting
-url: https://drewrwilson.com/launch-toolkit
+title: Stork Chat
+tagline: Chat with a midwife. Anytime, anywhere.
+description: We believe the best care for pregnancy is a woman's voice. We want to empower every woman and baby in the world to have autonomy with safe and quick access to a maternal healthcare professional.
+url: https://www.storkchat.co.uk
 
 logo: /images/logo.png
 backgroundImage: /images/background-doodles.png
@@ -12,8 +12,8 @@ mailchimpAntiSpamCode:
 showPrivacyPolicy: false
 
 socialMediaImage: /images/logo.png
-twitter:
-facebook:
-instagram:
+twitter: storkchat
+facebook: storkchat
+instagram: storkchat
 
-forkMeOnGithub: true #se this false to remove fork me on github ribbon
+forkMeOnGithub: false #se this false to remove fork me on github ribbon
