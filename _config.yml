@@ -6,8 +6,8 @@ url: https://storkchat.co.uk
 logo: /images/logo.png
 backgroundImage: /images/background-doodles.png
 
-mailchimpURI:
-mailchimpAntiSpamCode:
+mailchimpURI: https://storkchat.us4.list-manage.com/subscribe/post?u=4984be016af66b56a9fc6a5a2&amp;id=f9caff61aa
+mailchimpAntiSpamCode: b_4984be016af66b56a9fc6a5a2_f9caff61aa
 
 showPrivacyPolicy: false
 
