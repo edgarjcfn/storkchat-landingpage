@@ -180,6 +180,9 @@ input[type="email"] {
   text-decoration: none;
   border:none;
   text-transform: uppercase;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 a[href$='privacy'] {
