@@ -3,19 +3,16 @@
 
 <head>
   <title>{{ site.title }}</title>
+  <link rel='stylesheet' href={{ '/css/reset.css' | prepend: site.url }}>
   <link rel='stylesheet' href={{ '/css/main.css' | prepend: site.url }}>
   <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
 
-  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
   {% include social-headers.html %}
 </head>
 
 <body>
-
   {{ content }}
-  <div id="screenshot">
-    <img src="./images/iphone.png" id="iphone-mockup" />
-  </div>
   <script src={{ '/scripts/main.js' | prepend: site.url }}></script>
 </body>
 
