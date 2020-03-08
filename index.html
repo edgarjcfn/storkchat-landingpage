@@ -4,6 +4,7 @@ layout: signup
 
 <div class="row">
   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-6"  id="action">
+    <a name="access"></a>
     <div class="row" id="logo">
       <img src="{{ site.logo | prepend: site.url }}" alt="logo">
     </div>
@@ -25,26 +26,33 @@ layout: signup
         </div>
       </form>
     </div>
-
   </div>
-
   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-3" id="screenshot">
     <img src="./images/iphone.png" id="iphone-mockup" />
   </div>
-
-
-
-
 </div>
 
-{% if showPrivacyPolicy %}
-<div id="privacypolicy">
-  Privacy policy: We will send you news & information about our projects. We will not give your contact info to any 3rd
-  parties.
+<div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+    <div class="mother-image">
+      <div class="mother-text">
+        <h2>We believe the best care for pregnancy is a woman's voice.</h2>
+        <p>We want to empower every woman and baby in the world to have autonomy with safe and quick access to a maternal healthcare professional.</p>
+        <button type="button" class="button"><a href="#access">GET EARLY ACCESS</a></button>
+      </div>
+    </div>
+  </div>
 </div>
-{% endif %}
 
-<div id="socialmedia">
-  <a href="//instagram.com/" {{site.instagram}}>Instagram</a> |
-  <a href="//facebook.com/" {{site.facebook}}>Facebook</a>
+<div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+    <div id="socialmedia">
+      <img src="./images/Instagram.png" alt="Instagram">
+      <div class="row">
+        <a href="https://www.instagram.com/storkchat/?igshid=1xpze75ubqsks" {{site.instagram}} target="_blank">
+          Follow us on Instagram!
+        </a>
+      </div>
+    </div>
+  </div>
 </div>

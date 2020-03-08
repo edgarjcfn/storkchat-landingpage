@@ -86,6 +86,24 @@
   }
 }
 
+@media screen and (max-width: 600px) {
+  div h2{
+    font-size: 18pt;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .mother-text p {
+    font-size: 12pt !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  div h2{
+    font-size: 24pt;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .row {
     display: flex;
@@ -128,11 +146,19 @@ main {
 }
 
 
-h1, h2, h3 {
+h1 {
   font-weight: bold;
   color:#93409D;
   font-family: 'Nunito';
   font-size: 40pt;
+  line-height: 128%;
+}
+
+h2 {
+  font-weight: bold;
+  color:#ffffff;
+  font-family: 'Nunito';
+  font-size: 32pt;
   line-height: 128%;
 }
 
@@ -174,10 +200,6 @@ a[href$='privacy'] {
   font-size: 0.75rem;
   text-align: center;
   color:lightgrey;
-}
-
-#socialmedia {
-  padding: 5% 2% 2% 2%;
 }
 
 /* selected link */
@@ -230,4 +252,63 @@ a:hover {
   }
 }
 
+.mother-image {
+  background-image: url("/images/mother.jpg");
+  background-color: #FFA3D9;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 
+.mother-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mother-text p {
+  color:#ffffff;
+  font-family: 'Nunito';
+  font-size: 16pt;
+  line-height: 128%;
+  margin-top: 1rem;
+}
+
+.button {
+  background-color: red;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  margin-top: 1rem;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button a {
+  color: white !important;
+  text-decoration: none;
+}
+
+#socialmedia {
+  padding: 1rem;
+}
+
+#socialmedia img {
+  height: 4vh;
+  margin: 8px;
+}
+
+#socialmedia a {
+  font-size: 12pt;
+  font-family: 'Nunito';
+  font-weight: bold;
+  color: #93409D;
+  text-decoration: none;
+}
