@@ -99,12 +99,6 @@
 }
 
 @media screen and (min-width: 1200px) {
-  div h2{
-    font-size: 24pt;
-  }
-}
-
-@media screen and (min-width: 1200px) {
   .row {
     display: flex;
   }
