@@ -88,13 +88,13 @@
 
 @media screen and (max-width: 600px) {
   div h2{
-    font-size: 18pt;
+    font-size: 16pt;
   }
 }
 
 @media screen and (max-width: 600px) {
   .mother-text p {
-    font-size: 14pt !important;
+    font-size: 12pt !important;
   }
 }
 
@@ -252,7 +252,7 @@ a:hover {
 .mother-image {
   background-image: url("/images/mother.jpg");
   background-color: #E87DC4;
-  height: 560px;
+  height: 500px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
