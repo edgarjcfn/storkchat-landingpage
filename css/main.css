@@ -88,13 +88,13 @@
 
 @media screen and (max-width: 600px) {
   div h2{
-    font-size: 18pt;
+    font-size: 24pt;
   }
 }
 
 @media screen and (max-width: 600px) {
   .mother-text p {
-    font-size: 12pt !important;
+    font-size: 16pt !important;
   }
 }
 
@@ -229,7 +229,7 @@ a:hover {
 
 #screenshot {
   padding: 2rem;
-  background-color: #E489E8;
+  background-color: #6174EB;
   display: inline-block;
 }
 
@@ -251,7 +251,7 @@ a:hover {
 
 .mother-image {
   background-image: url("/images/mother.jpg");
-  background-color: #FFA3D9;
+  background-color: #E87DC4;
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
@@ -286,6 +286,7 @@ a:hover {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  width: 100%;
 }
 
 .button a {
