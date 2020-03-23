@@ -310,3 +310,21 @@ a:hover {
   color: #93409D;
   text-decoration: none;
 }
+
+#thankyou {
+  display: flex;
+  padding: 2rem;
+}
+
+#thankyou h1 {
+  font-size: 56pt;
+  font-family: 'Dancing Script', cursive;;
+  /* font-weight: bold; */
+  color: #93409d;
+  letter-spacing: 0.04em;
+}
+
+.label:after {
+  content: '\A';
+  white-space: pre;
+}
